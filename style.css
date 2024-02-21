@@ -2,7 +2,6 @@ body {
     font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
-    text-align: center;
 }
 
 .top {
@@ -61,4 +60,24 @@ button {
     border-radius: 8px;
 
 }
+
+.Info-Header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 36px;
+
+}
+
+.Substance {
+    display: flex;
+    width: 150px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    margin: 32px 144px;
+}
+
+
 
