@@ -24,11 +24,37 @@ li {
 
 .info {
     display: flex;
+    margin: 80px 250px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.text {
+    max-width: 360px;
+    color:  #e5e7eb;
 }
 
 a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px;
+
 }
 
