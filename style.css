@@ -1,7 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;;
 }
 
 .top {
@@ -76,6 +76,7 @@ button {
     align-items: flex-start;
     gap: 48px;
     margin: 32px 144px;
+    flex-wrap: wrap;
 }
 
 .stack {
@@ -92,6 +93,8 @@ button {
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 80px 400px;
 }
 
@@ -100,11 +103,12 @@ button {
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
+    
 }
 
 .author {
-    align-self: flex-end;
     font-weight: 900;
+    align-self: flex-end;
 }
 
 .box {
@@ -121,16 +125,19 @@ button {
 .action {
     font-weight: 900;
     font-size: 18px;
+
 }
 
 .subtext {
     font-weight: 100;
+
 }
 
 .box button {
     border: 2px solid white;
     border-radius: 5px;
     padding: 4px 24px;
+
 }
 
 .footer {
