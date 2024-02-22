@@ -85,8 +85,26 @@ button {
 
 .stack img {
     border: 3px solid #3882f6;
-    border-radius: 3px;
+    border-radius: 10px;
 }
 
+.gray {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 400px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.author {
+    align-self: flex-end;
+    font-weight: 900;
+}
 
 
