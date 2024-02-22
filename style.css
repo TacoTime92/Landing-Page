@@ -107,4 +107,12 @@ button {
     font-weight: 900;
 }
 
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    margin: 60px 250px;
+    background-color: #3882f6;
+}
 
