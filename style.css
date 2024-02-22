@@ -129,7 +129,17 @@ button {
 
 .box button {
     border: 2px solid white;
-    border border-radius: 5px;
+    border-radius: 5px;
     padding: 4px 24px;
 }
 
+.footer {
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+    font-weight: 100;
+    font-size: 12px;
+}
